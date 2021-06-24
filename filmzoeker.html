@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelle's Filmzoeker</title>
+    <script defer type="text/javascript" src="movies-database.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Jelle's Filmzoeker</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <input type="radio" id="latest" name="category-selection" value="latest">
+                <label for="latest">2014 of nieuwer</label>
+            </li>
+            <li>
+                <input type="radio" id="avengers" name="category-selection" value="avengers">
+                <label for="avengers">Avengers</label>
+            </li>
+            <li>
+                <input type="radio" id="x-men" name="category-selection" value="x-men">
+                <label for="x-men">X-Men</label>
+            </li>
+            <li>
+                <input type="radio" id="princess" name="category-selection" value="princess">
+                <label for="princess">Princess</label>
+            </li>
+            <li>
+                <input type="radio" id="batman" name="category-selection" value="batman">
+                <label for="batman">Batman</label>
+            </li>
+            <input type="search" id="search-bar" placeholder="Zoek een film.." title="Type een naam">
+        </ul>
+    </nav>
+
+    <main>
+        <ul id="movies-ul"></ul>
+    </main>
+
+</body>
+
+</html>
